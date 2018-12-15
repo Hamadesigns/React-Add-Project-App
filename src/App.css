@@ -1,0 +1,245 @@
+@font-face
+{
+    src: url(./components/Raleway-Regular.ttf);
+    font-family: regular;
+    
+
+}
+@font-face{
+src: url(./components/Montserrat-Light.ttf);
+font-family: comforta;
+}
+
+@font-face{src: url(./components/Comfortaa-Bold.ttf);
+    font-family: comfortab;
+    
+    }
+
+html,body
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: black;
+}
+#heading
+{
+  font-family: comforta;
+  font-size: 48px;
+  text-align: center;
+  color: orangered;
+  padding: 20px;  
+ 
+}
+#App
+{
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background-image: linear-gradient(-90deg, rgb(15, 184, 236), rgba(153, 0, 255, 0.979));
+
+}
+#navbar
+{
+    display: block;
+    margin: 0%;
+    text-align: center;
+    font-family: comforta;
+    display: block;
+    height: 150px;
+    width: 100%;
+    background: transparent;
+
+
+}
+#Addprojectbar
+{
+    display: block;
+    height: 200px;
+    width: 100%;
+    padding: 10px 25px 10px 25px;
+    font-family: regular;
+    margin: 0%;
+    overflow: hidden;
+    font-weight: 800;
+    
+}
+#forminput
+{
+    float: left;
+    margin: 5px 10px 5px 10px;
+    
+}
+#forminput > input 
+{
+border: solid;
+border-width: 1px;
+border-color: rgb(161, 161, 161);  
+height: 30px;
+outline: none;
+}
+#projectPlace
+{
+    display: block;
+    height: auto;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    padding: 10px 20px 10px 20px;
+    overflow: hidden;
+    background-image: url("./background1.jpg")
+
+}
+#centerprojectPlace
+{
+    position: relative;
+    height: 500px;
+    margin:auto;
+    width: auto;
+    overflow: hidden;
+   
+    
+    
+}
+#Projectitemcontainer
+{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 120px;
+    width: 240px;
+    float: left; 
+
+}
+
+#projectTile
+{
+    display: inline-block;
+    height: 100px;
+    width: 180px;
+    background-image: linear-gradient(90deg, rgb(0, 106, 138), rgba(88, 0, 146, 0.979));
+    margin: 6px;
+    font-family: regular;
+    color: rgb(196, 196, 196);
+    border: none;
+ border-color: rgba(5, 0, 53, 0.664);
+    overflow: hidden;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.507);
+    font-weight: 900;
+padding: 5px 20px 5px 5px;
+font-size: 13px; 
+transition-duration: 250ms;
+
+}
+u
+{
+    font-family: comfortab;
+    font-size: 14px;
+    font-weight: 900;
+}
+#projectTile:hover
+{
+border: solid;
+border-width: 2px;
+border-color: rgba(255, 68, 0, 0.575);
+margin: 2px;
+height: 104px;
+width: 184px;
+z-index: 5;
+
+}
+select
+{
+   
+transition-property: initial;
+    transition-duration: 500ms;
+    border: none;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    font-family: regular;
+    font-weight: 800; 
+    padding :5px 25px 5px 20px;
+background-image: url("{dropdown}");
+}
+
+
+option
+{
+    
+    
+    font-weight: 900;
+    height: 30px;
+    width: 100px;
+    border: solid;
+    border: black;
+    background-color: rgba(219, 127, 255, 0.397);
+    text-decoration: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+}
+#popup
+{
+height: 100vh;
+width: 100vw;
+background-color: rgba(0, 0, 0, 0.87);
+color: aliceblue;
+text-align: center;
+position: absolute;
+left: 0px;
+top: 0px;
+display: block;
+z-index: 50;
+}
+#message
+{
+    visibility: hidden;
+    color: red;
+    font-size: 14px; 
+}
+#SubmitBtn
+
+{
+    position: relative;
+    display: inline-block;
+    top: 25px;
+    left: 15px;
+    width: 120px;
+    height: 30px;
+    border: none;
+ color: orangered;   
+ background-color: rgba(34, 33, 33, 0.603);
+ font-weight: 900;
+ font-family: regular;  
+}
+#SubmitBtn:hover
+{
+    color: orangered;   
+    background-color: rgb(0, 0, 0);
+
+}
+#deletebtnimg
+{
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    left: 172px;
+    height: 25px;
+    width: 25px;
+    z-index: 5;
+    background-image: url("./deletePic.png");
+    opacity: .2;
+}
+
+#deletebtnimg:hover
+{
+    opacity: 10;
+}
