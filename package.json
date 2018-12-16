@@ -2,7 +2,7 @@
   "name": "projectmanager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hamadesigns.github.io/Simplereactapp",
+  "homepage": "https://hamadesigns.github.io/React-Add-Project-App",
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
